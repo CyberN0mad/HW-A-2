@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hw_a_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/btn_register"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/btn_register"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HWA2">
+        <activity android:name=".MainActivity">
+
+<!--            android:screenOrientation:-->
+
+
+<!--            android:screenOrientation="portrait"-->
+<!--            android:screenOrientation="landscape"-->  (- ориентация через манифест.)
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
